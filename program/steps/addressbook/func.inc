@@ -518,7 +518,7 @@ function rcmail_contact_form($form, $record, $attrib = null)
     // group fields
     $head_fields = array(
         'source'       => array('source'),
-        'names'        => array('prefix','firstname','middlename','surname','suffix'),
+        'names'        => array('prefix','surname','middlename','firstname','suffix'),
         'displayname'  => array('name'),
         'nickname'     => array('nickname'),
         'organization' => array('organization'),
